@@ -1,0 +1,111 @@
+.timer{
+	display: flex;
+	height: 80px;
+}
+.timer__hour{
+	position: relative;
+	height: 55px;
+	width: 80px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-right: 21px;
+}
+.timer__hour::after{
+	content: "";
+	position: absolute;
+	height: 55px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-left: 1.5px dashed #fbb100;
+}
+.timer__hour--value{
+	font-family: Umnik;
+	display: flex;
+	justify-content: start;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	font-size: 55px;
+	letter-spacing: 10px;
+	padding-left: 10%;
+}
+.timer__hour--caption{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: "Proxima Nova Regular";
+	font-size: 1em;
+	margin-top: 12px;
+}
+.timer__minutes{
+	position: relative;
+	height: 55px;
+	width: 80px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-right: 21px;
+}
+.timer__minutes::after{
+	content: "";
+	position: absolute;
+	height: 55px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-left: 1.5px dashed #fbb100;
+}
+.timer__minutes--value{
+	font-family: Umnik;
+	display: flex;
+	justify-content: start;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	font-size: 55px;
+	letter-spacing: 10px;
+	padding-left: 10%;
+}
+.timer__minutes--caption{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: "Proxima Nova Regular";
+	font-size: 1em;
+	margin-top: 12px;
+}
+.timer__seconds{
+	position: relative;
+	height: 55px;
+	width: 80px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.timer__seconds::after{
+	content: "";
+	position: absolute;
+	height: 55px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-left: 1.5px dashed #fbb100;
+}
+.timer__seconds--value{
+	font-family: Umnik;
+	display: flex;
+	justify-content: start;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	font-size: 55px;
+	letter-spacing: 10px;
+	padding-left: 10%;
+}
+.timer__seconds--caption{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: "Proxima Nova Regular";
+	font-size: 1em;
+	margin-top: 12px;
+}
